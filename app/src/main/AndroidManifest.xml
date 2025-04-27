@@ -13,6 +13,16 @@
         android:theme="@style/Theme.Samikshya"
         tools:targetApi="31">
         <activity
+            android:name=".Card2"
+            android:exported="false"
+            android:label="@string/title_activity_card2"
+            android:theme="@style/Theme.Samikshya" />
+        <activity
+            android:name=".Card"
+            android:exported="false"
+            android:label="@string/title_activity_card"
+            android:theme="@style/Theme.Samikshya" />
+        <activity
             android:name=".LoginActivity"
             android:exported="false"
             android:label="@string/title_activity_login"
